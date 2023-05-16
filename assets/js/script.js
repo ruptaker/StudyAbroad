@@ -59,5 +59,11 @@ const activeElem = function () {
     backTopBtn.classList.remove("active");
   }
 }
+let slideIndex = 1;
+setInterval(() => {
+  slideIndex++;
+  if (slideIndex === 7) slideIndex = 1;
+  slider(`slide${slideIndex}`);
+}, 2000);
 
 addEventOnElem(window, "scroll", activeElem);
