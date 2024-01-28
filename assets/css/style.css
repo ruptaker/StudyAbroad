@@ -153,7 +153,7 @@ body {
 .slider {
   position: relative;
   font-size: 1em;
-  margin: 25px;
+  margin: 15px;
 }
 
 .slider .slides .item {
@@ -163,7 +163,7 @@ body {
 
 .slider .slides .item img {
   width: 100%;
-  height: 400px;
+  height: 700px;
 }
 
 .slider .slides .active {
