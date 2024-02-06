@@ -7,15 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- 
-    - primary meta tag
+    - primary meta tags
   -->
-  <title>Alpha Radiation - The Best Program to Enroll for Japnese Language</title>
-  <meta name="title" content="EduWeb - The Best Program to Enroll for Japnese Language">
-  <meta name="description" content="This is an education html ">
-  <meta name="description" content="This is an education html ">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+  <title>Alpha Radiation Educational Consultancy </title>
+  <meta name="title" content="Alpha">
+  <meta name="description" content="Alpha Radiation Educational Consultancy ">
 
   <!-- 
     - favicon
@@ -23,31 +19,36 @@
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
   <!-- 
+    - custom font link
+  -->
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
-    rel="stylesheet">
-
-  <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
-  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
-  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+  <link rel="preload" as="image" href="./assets/images/Hero-Banner.jpeg">
+
 
 </head>
 
-<body id="top">
+<body>
+
+  <!-- 
+    - PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle" data-circle></div>
+  </div>
+
+
+
+
 
   <!-- 
     - #HEADER
@@ -57,14 +58,14 @@
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="./assets/images/logo.jpg" width="162" height="50" alt="EduWeb logo">
+        <img src="./assets/images/LOGO.png" width="145" height="27" alt="Youdemi home">
       </a>
 
       <nav class="navbar" data-navbar>
 
-        <div class="wrapper">
+        <div class="navbar-top">
           <a href="#" class="logo">
-            <img src="./assets/images/logo.jpg" width="162" height="50" alt="EduWeb logo">
+            <img src="./assets/images/logo.svg" width="145" height="27" alt="Youdemi home">
           </a>
 
           <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
@@ -75,36 +76,36 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            <a href="#" class="navbar-link title-sm" data-nav-link>Home</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>About</a>
+            <a href="#" class="navbar-link title-sm" data-nav-link>Courses</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#blog" class="navbar-link" data-nav-link>Our Office</a>
+            <a href="#" class="navbar-link title-sm" data-nav-link>Blog</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#contacts" class="navbar-link"  data-nav-link>Contact</a>
+            <a href="#" class="navbar-link title-sm" data-nav-link>Contacts</a>
           </li>
 
         </ul>
 
       </nav>
 
-        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
-          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-        </button>
+      <a href="#" class="btn btn-secondary">Contact Us</a>
 
-      </div>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
 
-      <div class="overlay" data-nav-toggler data-overlay></div>
+      <div class="overlay" data-overlay data-nav-toggler></div>
 
     </div>
   </header>
-  
+
 
 
 
@@ -116,56 +117,30 @@
         - #HERO
       -->
 
-      <section class="section hero has-bg-image" id="home" aria-label="home"
-        style="background-image: url('./assets/images/hero-bg.svg')">
+      <section class="section hero has-bg-image" aria-labelledby="hero-label"
+        style="background-image: url('./assets/images/hero-bg.png')">
         <div class="container">
 
           <div class="hero-content">
 
-            <h2 class="h1 section-title">
-              <span class="span"> भर्ना खुल्यो !!!     </span> 
-              Alpha Radiation <span class="span">Consultancy   </span>  
+            <h1 class="headline-lg" id="hero-label">
+              Alpha <span class="span">Radiation</span> Educational Consultancy
+            </h1>
 
-            </h2>
+            <p class="title-md has-before">
+              "Empowering Dreams, Shaping Futures."
+            </p>
 
-            <h2> हाम्रो सेवाहरु</h2>
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">+977 9845090129</a>
 
-            <ul>
-              <li>* बेलायत, संयुक्त राज्य अमेरिका, अष्ट्रेलिया, न्युजिल्याण्ड जापानको लागि Career Counselling गरिनेछ ।</li>
-            
-              <li>* जापानमा नै उच्च शिक्षा हासिल गरी नेपाल फर्कनु भएका शिक्षक द्वारा गुणस्तरीय शिक्षा प्रदान गरिने छ ।</li>
-              
-              <li>* Ssw and Working Visa को बारेमा विद्यार्थीलाई उचित परमर्श दिनुको साथै उचित शिक्षा दिइन्छ ।</li>
-              
-              <li>* विद्यार्थीको लागि आफ्नो उचित समयमा Class संचालन गरिने छ ।</li>
-              
-              <li>* जापान गएर कम्पनी परिवर्तन गर्दा समेत उचित परमर्श प्रदान गर्दछौ ।</li>
-              
-              <li>* नेपालमा Bachelor पास गरी भाषा उतिर्ण अथवा जापान Return लाई Direct Working मा जापान पठाइनेछ ।</li>
-              
-              <li>* Special Class को पनि बेवस्था छ ।</li>
-              
-             <li>* हाम्रो लक्ष जापान पुर्याउनु मात्र नभएर जापान पुगिसके पछी पनि उचित व्यवस्थापन गराउनु हो ।</li> 
-              
-            </ul>
+              <a href="#" class="btn btn-secondary">+977 9818583169</a>
+            </div>
 
-            
           </div>
 
           <figure class="hero-banner">
-
-            <div class="img-holder one" style="--width: 270; --height: 670;">
-              <img src="./assets/images/hero-banner-1.jpg" width="270" height="300" alt="hero banner" class="img-cover">
-            </div>
-
-            <div class="img-holder two" style="--width: 260; --height: 670;">
-              <img src="./assets/images/hero-banner-2.jpg" width="260" height="370" alt="hero banner" class="img-cover">
-            </div>
-
-            <img src="./assets/images/hero-shape-1.jpg" width="300" height="190" alt="" class="shape hero-shape-1">
-
-            <img src="./assets/images/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2">
-
+            <img src="./assets/images/Hero-Banner.png" width="590" height="620" alt="hero banner" class="w-100">
           </figure>
 
         </div>
@@ -178,241 +153,568 @@
       <!-- 
         - #CATEGORY
       -->
-<section class="section about" id="about" aria-label="about">
+
+      <section class="section category has-bg-image" aria-labelledby="category-label"
+        style="background-image: url('./assets/images/category-bg.png')">
         <div class="container">
 
-          <figure class="about-banner">
+          <p class="title-sm text-center section-subtitle" id="category-label">Course</p>
 
-            <div class="img-holder" style="--width: 590; --height: 370;">
-              <img src="./assets/images/about-banner.jpg" width="520" height="370" loading="lazy" alt="about banner"
-                class="img-cover">
-            </div>
-
-
-          </figure>
-
-          <div class="about-content">
-
-            <p class="section-subtitle">About Us</p>
-
-            <h2 class="h2 section-title">
-              Quality Education, <span class="span">Quality Teachers</span> for Japnese Language.
-            </h2>
-
-            <p class="section-text">
-              Our approach combines practical language skills with cultural insights, allowing students to develop
-               a well-rounded understanding of Japanese communication.
-            </p>
-
-            <ul class="about-list">
-
-              <li class="about-item">
-                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-
-                <span class="span">Speaking, listening and writing practice</span>
-              </li>
-
-              <li class="about-item">
-                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-
-                <span class="span">Monthly and weekly Test</span>
-              </li>
-
-              <li class="about-item">
-                <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-
-                <span class="span">24/7 Support</span>
-              </li>
-
-            </ul>
-
-            <img src="./assets/images/about-shape-4.svg" width="100" height="100" loading="lazy" alt=""
-              class="shape about-shape-4">
-
-          </div>
-
-        </div>
-      </section>
-      
-      <!-- 
-        - #COURSE
-      -->
-
-       <section class="slider">
-        
-        <div class="slides">
-          <div class="item active" id="slide1">
-            <img src="./assets/images/img2.jpg" alt="slide1" />
-          </div>
-          <div class="item" id="slide2">
-            <img src="./assets/images/img3.jpg" alt="slide2" />
-          </div>
-          <div class="item" id="slide3">
-            <img src="./assets/images/img4.jpg" alt="slide3" />
-          </div>
-          <div class="item" id="slide4">
-            <img src="./assets/images/img5.jpg" alt="slide3" />
-          </div>
-          <div class="item" id="slide5">
-            <img src="./assets/images/img6.jpg" alt="slide3" />
-          </div>
-          <div class="item" id="slide6">
-            <img src="./assets/images/img7.jpg" alt="slide3" />
-          </div>
-        </div>
-        <div class="buttons">
-          <i onclick="slider('slide1')" class="fas fa-circle" aria-hidden="true"></i>
-          <i onclick="slider('slide2')" class="fas fa-circle" aria-hidden="true"></i>
-          <i onclick="slider('slide3')" class="fas fa-circle" aria-hidden="true"></i>
-          <i onclick="slider('slide4')" class="fas fa-circle" aria-hidden="true"></i>
-          <i onclick="slider('slide5')" class="fas fa-circle" aria-hidden="true"></i>
-          <i onclick="slider('slide6')" class="fas fa-circle" aria-hidden="true"></i>
-        </div>
-      </section>
-
-
-
-
-      <!-- 
-        - #STATE
-      -->
-
-     
-
-
-
-
-      <!-- 
-        - #BLOG
-        -->
-      
-
-      <section class="section blog has-bg-image" id="blog" aria-label="blog"
-        style="background-image: url('./assets/images/blog-bg.svg')">
-        <div class="container">
-
-          <p class="section-subtitle">Our Office Space</p>
-
-          <h2 class="h2 section-title">Gongabu, Kathmandu, Nepal</h2>
+          <h2 class="headline-md text-center section-title">
+            We Offer <span class="span has-after">Following Courses</span>
+          </h2>
 
           <ul class="grid-list">
 
             <li>
-              <div class="blog-card">
+              <div class="card category-card">
 
-                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
-                  <img src="./assets/images/blog-1.jpg" width="370" height="370" loading="lazy"
-                    alt="Become A Better Blogger: Content Planning" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <a href="#" class="card-btn" aria-label="read more">
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
-
-                  <a href="#" class="card-subtitle">Features</a>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Flexibility in Classroom </a>
-                  </h3>
-
-                 
-
-                  <p class="card-text">
-                    Our classrooms are designed to accommodate a variety of teaching and learning styles
-                  </p>
-
+                <div class="card-icon">
+                  <img src="./assets/images/category-1.svg" width="72" height="72" loading="lazy"
+                    alt="Data Science icon">
                 </div>
+
+                <div>
+                  <h3 class="title-lg">IELTS </h3>
+
+                  <p class="title-sm">Courses</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="Data Science Category"></a>
 
               </div>
             </li>
 
             <li>
-              <div class="blog-card">
+              <div class="card category-card">
 
-                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
-                  <img src="./assets/images/blog-2.jpg" width="370" height="370" loading="lazy"
-                    alt="Become A Better Blogger: Content Planning" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <a href="#" class="card-btn" aria-label="read more">
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
-
-                  <a href="#" class="card-subtitle">Features</a>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Improved Learning Environment</a>
-                  </h3>
-
-                  <ul class="card-meta-list">
-
-                  
-
-                    
-
-                  </ul>
-
-                  <p class="card-text">
-                    Our classrooms provide a comfortable and stress-free learning environment for students, with plenty of space to move around and interact with their classmates.
-                  </p>
-
+                <div class="card-icon">
+                  <img src="./assets/images/category-2.svg" width="72" height="72" loading="lazy"
+                    alt="UI/UX Design icon">
                 </div>
+
+                <div>
+                  <h3 class="title-lg">PTE</h3>
+
+                  <p class="title-sm">Courses</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="UI/UX Design Category"></a>
 
               </div>
             </li>
 
             <li>
-              <div class="blog-card">
+              <div class="card category-card">
 
-                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
-                  <img src="./assets/images/blog-3.jpg" width="370" height="370" loading="lazy"
-                    alt="Become A Better Blogger: Content Planning" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <a href="#" class="card-btn" aria-label="read more">
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
-
-                  <a href="#" class="card-subtitle">Features</a>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Experienced Teachers</a>
-                  </h3>
-
-                  <ul class="card-meta-list">
-
-                    
-
-                    
-
-                  </ul>
-
-                  <p class="card-text">
-                    Our Teachers bring a wealth of knowledge and expertise to the classroom, which helps our students learn and grow.
-                  </p>
-
+                <div class="card-icon">
+                  <img src="./assets/images/category-3.svg" width="72" height="72" loading="lazy"
+                    alt="Modern Physics icon">
                 </div>
+
+                <div>
+                  <h3 class="title-lg">TOEFL</h3>
+
+                  <p class="title-sm">Courses</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="Modern Physics Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-4.svg" width="72" height="72" loading="lazy"
+                    alt="Music Production icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Japanese</h3>
+
+                  <p class="title-sm">Language</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="Music Production Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-5.svg" width="72" height="72" loading="lazy"
+                    alt="Data Science icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Korean</h3>
+
+                  <p class="title-sm">Language</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="Data Science Category"></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-6.svg" width="72" height="72" loading="lazy" alt="Finances icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">English</h3>
+
+                  <p class="title-sm">Language</p>
+                </div>
+
+                <a href="#" class="layer-link" aria-label="Finances Category"></a>
 
               </div>
             </li>
 
           </ul>
 
-          <img src="./assets/images/blog-shape.png" width="186" height="186" loading="lazy" alt=""
-            class="shape blog-shape">
+          <a href="#" class="btn btn-primary">View All Categories</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/ABOUT.png" width="600" height="585" loading="lazy" alt="about banner"
+              class="w-95">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="title-sm section-subtitle" id="about-label">About Alpha Radiation Educational Consultancy</p>
+
+            <h2 class="headline-md section-title">
+              We Provide The Best <span class="span has-after">Educational Service </span>
+            </h2>
+
+            <p class="title-sm section-text">
+              Our consultancy is a bridge, connecting ambitions with the right opportunities, ensuring that each individual's unique potential is realized.
+              With a passion for inspiring minds and transforming lives, we view education not just as a process but as a transformative experience.
+            </p>
+
+            <ul class="progress-list">
+
+              <li>
+                <div class="progress-label-wrapper">
+                  <p class="title-sm">Test Preparation</p>
+
+                  <p class="title-sm"></p>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill red"></div>
+                </div>
+              </li>
+
+              <li>
+                <div class="progress-label-wrapper">
+                  <p class="title-sm">Visa Processing</p>
+
+                  <p class="title-sm"></p>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill green"></div>
+                </div>
+              </li>
+
+              <li>
+                <div class="progress-label-wrapper">
+                  <p class="title-sm">Career Counseling</p>
+
+                  <p class="title-sm"></p>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill yellow"></div>
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COURSE
+      -->
+
+      <section class="section course has-bg-image" aria-labelledby="course-label"
+        style="background-image: url('./assets/images/course-bg.png')">
+        <div class="container">
+
+          <p class="title-sm section-subtitle text-center">Featured Courses</p>
+
+          <h2 class="headline-md section-title text-center" id="course-label">
+            Choose Different <span class="span has-after">Countries</span>
+          </h2>
+
+          <ul class="grid-list">
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/course-1.svg" width="370" height="248" loading="lazy"
+                    alt="Basic Fundamentals of Interior & Graphics Design" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">Study in Japan</p>
+
+                    <div class="rating-wrapper">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                    </div>
+
+                  </div>
+
+                  <h3 class="title-lg card-title">
+                    Study and Work in Japan- N3/N4/N5 Language Classes
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">3 Lessons</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">Limited Seats</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Course Details, Basic Fundamentals of Interior & Graphics Design"></a>
+
+              </div>
+            </li>
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/course-2.svg" width="370" height="248" loading="lazy"
+                    alt="Increasing Engagement with Instagram & Facebook" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">Canada</p>
+
+                    <div class="rating-wrapper">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                    </div>
+
+                  </div>
+
+                  <h3 class="title-lg card-title">
+                    Masters and PG Diploma in Canada
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">IELTS Classes</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">Limited Seats</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Course Details, Increasing Engagement with Instagram & Facebook"></a>
+
+              </div>
+            </li>
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/course-3.svg" width="370" height="248" loading="lazy"
+                    alt="Introduction to Color Theory & Basic UI/UX" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">United Kingdom</p>
+
+                    <div class="rating-wrapper">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                    </div>
+
+                  </div>
+
+                  <h3 class="title-lg card-title">
+                    Masters and Bachelors in UK & Ireland
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">IELTS & PTE</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">Limited Seats</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Course Details, Introduction to Color Theory & Basic UI/UX"></a>
+
+              </div>
+            </li>
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/course-4.svg" width="370" height="248" loading="lazy"
+                    alt="Financial Security Thinking and Principles Theory" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">USA</p>
+
+                    <div class="rating-wrapper">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                    </div>
+
+                  </div>
+
+                  <h3 class="title-lg card-title">
+                    Masters and Bachelors in USA
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">TOEFL</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">Limited Seats</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Course Details, Financial Security Thinking and Principles Theory"></a>
+
+              </div>
+            </li>
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/course-5.svg" width="370" height="248" loading="lazy"
+                    alt="Logo Design: From Concept to Presentation" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">Australia</p>
+
+                    <div class="rating-wrapper">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                    </div>
+
+                  </div>
+
+                  <h3 class="title-lg card-title">
+                    Masters and Bachelors in Australia
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">IELTS </span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">Limited Seats</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Course Details, Logo Design: From Concept to Presentation"></a>
+
+              </div>
+            </li>
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/course-6.svg" width="450" height="248" loading="lazy" object-fit="cover"
+                    alt="Professional Ceramic Moulding for Beginners" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">New Zeaaland</p>
+
+                    <div class="rating-wrapper">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                    </div>
+
+                  </div>
+
+                  <h3 class="title-lg card-title">
+                    Masters and Bachelors in New Zeaaland
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">IETLS</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">Limited Seats</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Course Details, Professional Ceramic Moulding for Beginners"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">Contact for More Details</a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-labelledby="cta-label">
+        <div class="container">
+
+          <h2 class="headline-md section-title" id="cta-label">
+            Empowering your journey, shaping your success.
+          </h2>
+
+          <a href="#" class="btn btn-tertiary">Register Today</a>
 
         </div>
       </section>
 
     </article>
   </main>
-  
 
 
 
@@ -422,159 +724,155 @@
     - #FOOTER
   -->
 
-  <section class="footer" id= "contacts"  style="background-image: url('./assets/images/footer-bg.png')">
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
 
-    <div class="footer-top section">
-      <div class="container grid-list">
+    <div class="section footer-top">
+      <div class="container">
 
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo.jpg" width="162" height="50" alt="EduWeb logo">
+            <img src="./assets/images/LOGO.png" width="145" height="27" alt="Youdemi home">
           </a>
 
-          <p class="footer-brand-text">
-            जापान जान चाहने व्यक्तिको लागि खुसीको खबर
-              यस Abroad Study and Education Pvt. Ltd. मा जापान चाहने व्यक्तिको २५% छूट साहित जापानी भाषा अध्ययनको लागि भर्ना खुल्यो।
+          <p class="title-sm footer-text">
+            Alpha Radiation Educational consultancy Sorakhutte, petrol pump, KTM.
+             (9818583169,9845090129,9801778803)
           </p>
-
-          <div class="wrapper">
-            <span class="span">Add:</span>
-
-            <address class="address">Gongabu, Kathmandu, Nepal</address>
-          </div>
-
-          <div class="wrapper">
-            <span class="span">Call:</span>
-
-            <a href="tel:+9768404919" class="footer-link"> 9768404918 and 9803562893</a>
-          </div>
-
-          <div class="wrapper">
-            <span class="span">Email:</span>
-
-            <a href="abroadstudyedu.consultancy@gmail.com" class="footer-link">abroadstudyedu.consultancy@gmail.com</a>
-          </div>
-
-        </div>
-
-        <ul class="footer-list">
-
-          <li>
-           
-          </li>
-
-          <li>
-            
-          </li>
-
-          <li>
-            
-          </li>
-
-          <li>
-          
-          </li>
-
-          <li>
-            
-          </li>
-
-          <li>
-          
-          </li>
-
-          <li>
-           
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-           
-          </li>
-
-          <li>
-        
-          </li>
-
-          <li>
-           
-          </li>
-
-          <li>
-      
-          </li>
-
-          <li>
-           
-          </li>
-
-          <li>
-          
-          </li>
-
-          <li>
- 
-          </li>
-
-        </ul>
-
-        <div class="footer-list">
-
-          <p class="footer-list-title">Contacts</p>
-
-          <p class="footer-list-text">
-            Enter your email address to register to our newsletter subscription
-          </p>
-
-          <form action="" class="newsletter-form">
-            <input type="email" name="email_address" placeholder="Your email" required class="input-field">
-
-            <button type="submit" class="btn has-before">
-              <span class="span">Subscribe</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </button>
-          </form>
 
           <ul class="social-list">
 
             <li>
-              <a href="https://www.facebook.com/profile.php?id=100091767916816" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://www.facebook.com/profile.php?id=100091767916816" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://www.facebook.com/profile.php?id=100091767916816" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://www.facebook.com/profile.php?id=100091767916816" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
+              <a href="#" class="social-link">
+                <img src="./assets/images/facebook.svg" width="40" height="40" loading="lazy" alt="facebook">
               </a>
             </li>
 
             <li>
               <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
+                <img src="./assets/images/twitter.svg" width="40" height="40" loading="lazy" alt="twitter">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="./assets/images/pinterest.svg" width="40" height="40" loading="lazy" alt="pinterest">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="./assets/images/instagram.svg" width="40" height="40" loading="lazy" alt="instagram">
               </a>
             </li>
 
           </ul>
 
         </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="headline-sm footer-list-title">Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">Pricing</a>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">Courses</a>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">Blog</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="headline-sm footer-list-title">Legal</p>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">Legal</a>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">Tearms of Use</a>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">Tearm & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">Payment Method</a>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+
+            <p class="headline-sm footer-list-title">Instagram Post</p>
+
+            <ul class="grid-list">
+
+              <li>
+                <img src="./assets/images/ins-1.png" width="80" height="80" loading="lazy" alt="instagram post"
+                  class="img-cover">
+              </li>
+
+              <li>
+                <img src="./assets/images/ins-2.png" width="80" height="80" loading="lazy" alt="instagram post"
+                  class="img-cover">
+              </li>
+
+              <li>
+                <img src="./assets/images/ins-3.png" width="80" height="80" loading="lazy" alt="instagram post"
+                  class="img-cover">
+              </li>
+
+              <li>
+                <img src="./assets/images/ins-4.png" width="80" height="80" loading="lazy" alt="instagram post"
+                  class="img-cover">
+              </li>
+
+              <li>
+                <img src="./assets/images/ins-5.png" width="80" height="80" loading="lazy" alt="instagram post"
+                  class="img-cover">
+              </li>
+
+              <li>
+                <img src="./assets/images/ins-6.png" width="80" height="80" loading="lazy" alt="instagram post"
+                  class="img-cover">
+              </li>
+
+            </ul>
+
+          </li>
+
+        </ul>
 
       </div>
     </div>
@@ -583,7 +881,7 @@
       <div class="container">
 
         <p class="copyright">
-          Copyright 2022 All Rights Reserved by <a href="#" class="copyright-link">StudyAbroadEdu</a>
+          © Copyright 2024 | Ruptaker |
         </p>
 
       </div>
@@ -596,24 +894,12 @@
 
 
   <!-- 
-    - #BACK TO TOP
+   - custom js link
   -->
-
-  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
-    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-  </a>
-
-
-
-
+  <script src="./assets/js/script.js"></script>
 
   <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js" defer></script>
-
-  <!-- 
-    - ionicon link
+    - ionicon
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
